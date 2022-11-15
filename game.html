@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XnO - By Ayush Khatri</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-------------------------------------------------------header section-------------------------------------------->
+
+    <header>
+        <nav>
+            <p>TicTacToe Game - Made with &#10084;&#65039; by Ayush Khatri</p>
+        </nav>
+    </header>
+    <!-------------------------------------------------------Announcements-------------------------------------------->
+    <h3 id="turn">Game will always starts with 'X'</h3>
+
+    <!---------------------------------------------------------Main------------------------------------------------------>
+
+    <div class="container">
+
+        <div class="board">
+            <div class="cell bt-0 bl-0 " id="box1"></div>
+            <div class="cell bt-0" id="box2"></div>
+            <div class="cell bt-0 br-0 " id="box3"></div>
+            <div class="cell bl-0" id="box4"></div>
+            <div class="cell" id="box5"></div>
+            <div class="cell br-0" id="box6"></div>
+            <div class="cell bl-0 bb-0" id="box7"></div>
+            <div class="cell bb-0" id="box8"></div>
+            <div class="cell bb-0 br-0" id="box9"></div>
+        </div>
+    </div>
+
+    <div onclick="resetGame()" class="resetGame">
+        <input type="button" value="Reset">
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
